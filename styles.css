@@ -819,25 +819,55 @@ body.case-study-open {
   font-weight: 550;
 }
 
-.contact-section {
-  background: var(--forest);
-  color: #fff;
+#contact.contact-section {
+  background-color: #174b40 !important;
+  color: #fff !important;
   padding: 5.5rem 8vw;
   text-align: center;
 }
-.contact-section .eyebrow {
-  color: var(--coral);
+
+#contact .eyebrow {
+  color: #e5a58d;
 }
-.contact-section h2 {
+
+#contact h2 {
+  color: #fff;
   font-size: clamp(3.1rem, 5vw, 5.2rem);
   margin: 1.2rem auto 1.4rem;
   max-width: 980px;
 }
-.contact-section > p:nth-of-type(2) {
-  color: rgba(255, 255, 255, 0.76);
+
+#contact .contact-intro {
+  color: rgba(255, 255, 255, 0.78);
   font-size: 1.05rem;
-  margin: 0 auto 2rem;
+  line-height: 1.75;
+  margin: 0 auto;
   max-width: 650px;
+}
+
+#contact .contact-email {
+  border-top: 1px solid rgba(255, 255, 255, 0.28);
+  margin: 2.25rem auto 0;
+  max-width: 650px;
+  padding-top: 1.5rem;
+}
+
+#contact .contact-email span {
+  color: #e5a58d;
+  display: block;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+#contact .contact-email strong {
+  color: #fff;
+  display: block;
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  font-weight: 600;
+  margin-top: 0.45rem;
+  overflow-wrap: anywhere;
 }
 
 .site-footer {
