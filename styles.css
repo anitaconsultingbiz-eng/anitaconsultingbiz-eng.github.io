@@ -191,6 +191,13 @@ h3 {
   margin-top: 1.7rem;
   max-width: 680px;
 }
+.hero-support {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-top: 1rem;
+  max-width: 650px;
+}
 .hero-visual {
   min-height: 620px;
   overflow: hidden;
@@ -708,6 +715,20 @@ body.case-study-open {
   max-width: 520px;
 }
 
+.featured-case-study {
+  background: #111a16;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  border-radius: 20px;
+  box-shadow: 0 18px 45px rgba(21, 35, 30, 0.16);
+  color: #fff;
+  margin-bottom: 4.5rem;
+  overflow: hidden;
+}
+
+.featured-case-study .case-study-copy h3 {
+  font-size: clamp(2.15rem, 3.5vw, 3.6rem);
+}
+
 .problem-stories {
   align-items: start;
   display: grid;
@@ -1106,9 +1127,16 @@ body.case-study-open {
 
 #contact .contact-email {
   border-top: 1px solid rgba(255, 255, 255, 0.28);
+  display: block;
   margin: 2.25rem auto 0;
   max-width: 650px;
   padding-top: 1.5rem;
+  text-decoration: none;
+}
+
+#contact .contact-email:hover strong,
+#contact .contact-email:focus-visible strong {
+  color: var(--coral);
 }
 
 #contact .contact-email span {
