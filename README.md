@@ -1,12 +1,20 @@
-# Anita Perez consulting website redesign
+# Anita Perez Consulting — project support website
 
-## Files to place in your GitHub repository
+This package contains a consulting business homepage for use with VS Code and GitHub Pages. It positions Anita Perez Consulting as temporary project and operations support for solopreneurs, small businesses, small nonprofits, and independent professionals.
 
-- `index.html` — consulting-services homepage
-- `styles.css` — complete responsive design system
-- `script.js` — mobile navigation behavior
-- `Anita_Perez_Headshot.png` — keep your existing image file with this exact name
+## Files
 
-Replace the matching files in your local VS Code project with these versions. Keep your existing `Anita_Perez_Headshot.png` in the same folder. Then preview `index.html`, commit the changes, and push them to GitHub.
+- `index.html`
+- `styles.css`
+- `script.js`
+- `Anita_Perez_Professional_Headshot.png`
+- `AnitaPerezLLC-Logo-Mark.png`
 
-The homepage positions Anita as a practical systems and operations consultant for solopreneurs, small businesses, nonprofits, and growing teams. It uses one external Unsplash workspace photograph. If you later want the site to be fully self-contained, download your preferred licensed image, name it `workspace.jpg`, place it beside `index.html`, and change the hero image source to `workspace.jpg`.
+## Test before publishing
+
+1. Place all four files in the root of the local website folder.
+2. Open `index.html` with Live Server in VS Code.
+3. Review the desktop and mobile layouts.
+4. Commit and push the files only after the local version is approved.
+
+This website is intentionally separate in content and visual design from the professional portfolio website.
